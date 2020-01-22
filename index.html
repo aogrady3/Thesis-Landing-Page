@@ -6,17 +6,19 @@
     <meta name='viewport' content='width=device-width initial-scale=1.0'>
     <title>Thesis Hero Page</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="index.js"></script>
   </head>
   <body>
       <!-- Main Page Nav bar contains logo and menu-burger -->
       <nav id = 'navbar'>
-          <div class='logo'>
+          <div id='logo'>
               <h3>Stamp</h3>
           </div>
-          <div class='menus-burger'>
-              |||
-          </div>
+          <div id='menu-burger'>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
        </nav>
        
         <!-- Landing Page includes main text and Login Form -->
@@ -43,27 +45,29 @@
                     <input type="password" placeholder="Password" name="psw" required>
                   </div>
                 </div>
-                  <button type="submit" id="sign-up-bttn">Sign Up</button>
+                  <button type="submit" id="sign-up-bttn">Sign Up <i class="fa fa-angle-right"></i></button>
+                  <p>By clicking 'Sign Up' I agree to our</p>
+                  <a>Terms of Service</a>
               </form>
         </section>
 
         <!-- Footer for Landing Page -->
         <footer id="footer">
-            <div id='rights-reserved'>
-                2016 Stamp. All Rights Reserved
+            <div id='copyright'>
+                <i class="fa fa-copyright"></i>2016 Stamp. All Rights Reserved
             </div>
             <div id='all-footer-items'>
             <div class="footer-item">
-                <a href="#">CONTACT</a>
+                <strong><a href="#">CONTACT</a></strong>
             </div>
             <div class="footer-item">
-                <a href="#">HELP</a>
+                <strong><a href="#">HELP</a></strong>
             </div>
             <div class="footer-item">
-                <a href="#">TERMS OF USE</a>
+                <strong><a href="#">TERMS OF USE</a></strong>
             </div>
             <div class="footer-item">
-                <a href="#">TERMS OF USE</a>
+                <strong><a href="#">PRIVACY POLICY</a></strong>
             </div>
             </div>
         </div>
