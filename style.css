@@ -1,9 +1,11 @@
+/* Navbar styling */
 #navbar{
     display: flex;
     justify-content: space-between;
 
 }
 
+/* Main text styling */
 #carousel{
     justify-content: space-around;
     display: flex;
@@ -22,5 +24,38 @@
     font-size: 22px;
 }
 
+/* Sign Up Form Styling */
+
 #sign-up-form{
+    border-radius: 20em;
+    width: 420px;
+    height: 366px;
+}
+
+.form-item{
+    height: 35px;
+    justify-content: center;
+}
+
+.form-item input{
+    width: 100%;
+    font-size: 25px;
+}
+
+#sign-up-bttn {
+    width: 100%;
+    font-size: 25px;
+}
+
+/* Footer Styling */
+#footer{
+    margin-top: 13em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#all-footer-items{
+    width: 477px;
+    display: flex;
+    justify-content: space-evenly
 }
