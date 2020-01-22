@@ -24,6 +24,31 @@ body{
     cursor: pointer;
 }
 
+#side-navbar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    transition: 0.5s;
+    color: gray;
+}
+
+#side-navbar a:hover{
+    color: white
+}
+#side-navbar-close:hover{
+    color: white
+}
+
+#side-navbar a{
+    margin: 1em;
+}
+
 /* Main text styling */
 #carousel{
     display: flex;
@@ -91,16 +116,19 @@ body{
 #sign-up-bttn {
     height: 45px;
     width: 100%;
-    font-size: 25px;
+    font-size: 15px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #357edd;
     color: white; 
     cursor: pointer;
+    border-color: #357edd;
 }
 
 #sign-up-bttn:hover {
     background-color: gray;
+    border-color: gray;
+
 }
 
 #terms-of-service{
