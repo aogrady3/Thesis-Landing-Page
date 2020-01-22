@@ -7,9 +7,10 @@
 
 /* Main text styling */
 #carousel{
-    justify-content: space-around;
     display: flex;
+    justify-content: space-evenly;
 }
+
 
 #carousel-text{
     width: 555px;
@@ -27,24 +28,50 @@
 /* Sign Up Form Styling */
 
 #sign-up-form{
+    margin-top: 5em;
     border-radius: 20em;
     width: 420px;
     height: 366px;
 }
 
-.form-item{
-    height: 35px;
-    justify-content: center;
+#sign-up-form h1{
+    text-align: center;
 }
 
-.form-item input{
+#all-form-items {
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 1px;
+}
+
+.form-item {
+    height: 35px;
+    justify-content: center;
+    padding: 1em;
+    border-bottom: solid; 
+    border-color: lightgray;
+    border-bottom-width: 1px;
+}
+
+.form-item input {
     width: 100%;
     font-size: 25px;
+    border-width:0px;
+    border: none;
 }
 
 #sign-up-bttn {
     width: 100%;
     font-size: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #7aa7f5;
+    color: white; 
+
+
 }
 
 /* Footer Styling */
