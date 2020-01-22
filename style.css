@@ -99,6 +99,19 @@ body{
     background-color: gray;
 }
 
+#terms-of-service{
+    text-align: center;
+    font-size: 11px;
+}
+
+#terms-of-service a{    
+    cursor: pointer;
+}
+
+#terms-of-service a:hover{
+   text-decoration: underline;
+}
+
 /* Footer Styling */
 #footer{
     position: fixed;
