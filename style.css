@@ -1,7 +1,8 @@
 /* Add Font and Background*/
 body{
     font-family: "Avenir Next" !important;
-    background-image: url("wood.jpg")
+    background-image: url("background.png");
+    color: white;
 }
 
 /* Navbar styling */
@@ -66,6 +67,7 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-width: 1px;
+    border-color: gray;
 }
 
 .form-item {
@@ -73,7 +75,7 @@ body{
     justify-content: center;
     padding: 1em;
     border-bottom: solid; 
-    border-color: lightgray;
+    border-color: gray;
     border-bottom-width: 1px;
 }
 
@@ -82,6 +84,8 @@ body{
     font-size: 25px;
     border-width:0px;
     border: none;
+    background: transparent;
+    color: white;
 }
 
 #sign-up-bttn {
@@ -90,7 +94,7 @@ body{
     font-size: 25px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #7aa7f5;
+    background-color: #357edd;
     color: white; 
     cursor: pointer;
 }
@@ -135,7 +139,7 @@ body{
 
 .footer-item a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .footer-item a:hover{
