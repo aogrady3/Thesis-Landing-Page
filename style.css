@@ -1,0 +1,26 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#carousel{
+    justify-content: space-around;
+    display: flex;
+}
+
+#carousel-text{
+    width: 555px;
+    height: 347px;
+}
+
+#carousel-text h1{
+    font-size: 72px;
+}
+
+#carousel-text h2{
+    font-size: 22px;
+}
+
+#sign-up-form{
+}
